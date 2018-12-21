@@ -1,0 +1,17 @@
+body{background: #f5f5f5;}
+.head{width: 100%;height: 88px;line-height: 88px;position: fixed;top:0;text-align: center;font-size: 32px;color: #fff;}
+.bg{width: 100%;height: 380px;background: #673AB7;padding: 100px 0 0 0;}
+.head-img{width: 200px;height: 200px;display: block;border-radius: 50%;overflow: hidden;margin: 0 auto;}
+.photo{width: 200px;height: 200px;display: block;border-radius: 50%;}
+.member-num{width: 100%;line-height: 60px;text-align: center;display: block;font-size: 16px;color: #fff;}
+.icons{width: 100%;padding: 20px 0;display: box;display: -webkit-box;display: -moz-box;display: -o-box;display: -ms-box;background: #fff;}
+.icons .col{box-flex: 1; -webkit-box-flex: 1;-moz-flex-box: 1;-o-box-flex:1;-ms-flex-box: 1;}
+.waiting{display: block;margin: 0 auto;width: 60px;}
+[class^="weui-icon-"]:before, [class*=" weui-icon-"]:before{margin:0;}
+.bom_txt{color: #333;font-size: 28px;display: block;margin: 0 auto;text-align: center;line-height: 60px;}
+.list{padding: 0 30px;box-sizing: border-box;margin-top: 20px;background: #fff;}
+.row{width: 100%;height: 80px;border-bottom: 1px solid #ccc;display: flex;}
+.row:last-child{border:none;}
+.row_txt{width: 90%;height: 80px;line-height: 80px;position: relative;font-size: 28px;color: #666;padding-left: 20px;}
+.row_txt:after{width: 30px;height: 30px;border-top: 1px solid #ddd;border-right: 1px solid #ddd;transform: rotate(45deg);content:'';position: absolute;right:0;top: 20px;}
+.icon-left{margin-top: 14px;}
